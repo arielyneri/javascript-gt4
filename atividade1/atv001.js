@@ -11,8 +11,8 @@ let c = prompt('Digite o terceiro valor: ');
 let soma = (a+b) < c;
 
 if (soma == true) {
-    alert(`A soma de ${a} + ${b} é menor do que ${c} `)
+    alert(`A soma de ${a} + ${b} é menor do que ${c} `);
 }
 else {
-    alert(`A soma de ${a} + ${b} é maior que ${c}`)
+    alert(`A soma de ${a} + ${b} é maior que ${c}`);
 }
