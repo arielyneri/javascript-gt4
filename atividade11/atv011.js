@@ -4,7 +4,7 @@
 // 3 - Em duas vezes: preço normal, sem juros
 // 4 - Em três vezes: preço normal acrescido de 10%
 
-const preco = Number(prompt('Digite o preço normal do produto:'));
+const preco = parseFloat(prompt('Digite valor do produto:'));
 const condicao = Number(prompt(
     'Escolha a condição de pagamento:\n' +
     '1 - À vista em dinheiro ou cheque (10% de desconto)\n' +
